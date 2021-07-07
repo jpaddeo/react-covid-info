@@ -1,0 +1,16 @@
+.TableCasos {
+  margin-top: 20px;
+  overflow-y: scroll;
+  height: 400px;
+  color: #6a5d5d;
+}
+.TableCasos tr {
+  display: flex;
+  justify-content: space-between;
+}
+.TableCasos td {
+  padding: 0.5rem;
+}
+.TableCasos tr:nth-of-type(odd) {
+  background-color: #f3f2f8;
+}
